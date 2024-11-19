@@ -36,3 +36,21 @@ h1 {
   transform: translate(-50%, -50%);
   width: 200px;
 }
+
+.pic-container {
+  margin: 10px 30%;
+}
+
+.pic-container img {
+  width: 100%;
+  margin-top: 5px;
+}
+
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 30px;
+  }
+  .pic-container {
+    margin: 10px;
+  }
+}
